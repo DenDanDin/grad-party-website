@@ -22,7 +22,13 @@ a{
     color: white;
 }
 
-a:hover{
+.link-container{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.link-container:hover{
     background-color: #111;
 }
 
@@ -30,6 +36,7 @@ a:hover{
     display: grid;
     grid-template-columns: 50% 50%;
     place-items: center;
+    padding-right: 10%;
 }
 
 .grad-img{
@@ -40,5 +47,45 @@ a:hover{
 .index-text-container{
     text-align: center;
     font-family: Jua;
+    color: white;
+    padding-right: 10%;
+}
+
+.party-info-content-container{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 50% 50%;
+}
+
+.map-container{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.map-container iframe{
+    height: 90%;
+    width: 90%;
+}
+
+.address-container{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: Jua;
+    color: white;
+}
+
+.parking-note-container{
+    grid-column: 1 / 3;
+    grid-row: 2/3;
+    text-align: center;
+    font-family: Jua;
+    color: white;
+}
+
+.food-and-drink-content-container{
     color: white;
 }

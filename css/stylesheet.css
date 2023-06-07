@@ -1,0 +1,44 @@
+@font-face{
+    font-family: Jua;
+    src: url(./fonts/Jua-Regular.ttf);
+}
+
+body{
+    background-color: #231F20;
+}
+
+.navbar-container{
+    margin-top: 2%;
+    font-family: Jua;
+    font-size: x-large;
+    color: white;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: #111;
+}
+
+.index-content-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+}
+
+.grad-img{
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.index-text-container{
+    text-align: center;
+    font-family: Jua;
+    color: white;
+}
